@@ -5,7 +5,6 @@ from passlib.hash import sha256_crypt
 from flask_mysqldb import MySQL
 from functools import wraps
 import time
-from flask_ngrok import run_with_ngrok
 
 from password import _mysql_password
 from sqlhelpers import *
