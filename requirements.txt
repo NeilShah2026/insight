@@ -1,0 +1,6 @@
+gunicorn
+flask
+passlib
+flask_mysqldb
+wtforms
+
