@@ -1,4 +1,4 @@
-from app import mysql, session
+from wsgi import mysql, session
 from blockchain import Block, Blockchain
 
 #custom exceptions for transaction errors
